@@ -11,4 +11,8 @@ spring:
     base-url: http://localhost:8090
 server:
   port: 8082
-  context-path: /app02
+  servlet:
+    context-path: /app02
+logging:
+  level:
+    root: info
